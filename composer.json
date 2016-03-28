@@ -1,0 +1,21 @@
+{
+    "name": "reisraff/phing-example-usage",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phing/phing": "2.*",
+        "phpunit/phpunit": "4.5.*",
+        "squizlabs/php_codesniffer": "2.0.*@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
